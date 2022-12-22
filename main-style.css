@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin:0;
+	padding:0;
+	font-family:Poppins;
+	font-size: 14px;
+	background: #f2f2f2;
+	color: #828282;
+	line-height: 1.7rem; /*Chieu cao tung dong trong 1 paragraph*/
+}
+section
+{
+border-top: 3px dotted #666;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.form-control
+{
+	width: 100%;
+	padding: 8px 10px;
+	border: none;
+	border-radius: 2px;
+	background-color: #FFF;
+	
+}
+h1 {
+	color: black;
+	font-size: 34px;
+	line-height: 55px;
+	font-weight: 700;
+}
+.btn-dark {
+	background-color: black;
+	color: #ffffff;
+	cursor: pointer;
+	border: none;
+	padding: 8px 10px;
+	
+}
+.btn-dark:hover{
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+
+}
+footer {
+	background: #000;
+	color: #fff;
+	padding: 60px 0;
+	
+}
+.menu-footer a{
+	display: block;
+	color:#fff;
+	text-decoration: none;
+}
+.menu-footer:hover{
+
+}
+#tieude-trang {position:relative;}
+.ten-trang {position:absolute;
+width: 50%;
+	top: 40%;
+	left: 25%;
+	text-align: center;
+color: #ffff;
+}
+.ten-trang h1 {
+	color: white;
+	font-size: 52px;
+	margin-bottom: 15px;
+}
+.ten-trang p{
+	margin-top: 0;
+	
+}
+h2{color:black;}
